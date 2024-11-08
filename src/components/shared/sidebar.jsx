@@ -13,7 +13,7 @@ const Sidebar = (props) => {
     <div className={`bg-[#1F1D2B] fixed lg:left-0 top-0 w-28 h-full flex flex-col justify-between py-2 rounded-tr-xl
     rounded-br-xl z-50 transition-all ${showMenu ? 'left-0' : '-left-full'} `}>
         <div>
-            <ul className='pl-6'>
+            <ul className='pl-2'>
                 <li className='text-xl text-gray-300 uppercase font-bold text-center my-5'>
                     Logo
                 </li>
@@ -55,7 +55,7 @@ const Sidebar = (props) => {
             </ul>
         </div>
         <div>
-            <ul className='pl-8'>
+            <ul className='pl-2'>
                 <li className='p-[10px] rounded-tl-2xl rounded-bl-2xl hover:bg-[#262837] group transition-colors'>
                     <a href="#" className=' group-hover:bg-[#ec7c6a] p-[10px] flex justify-center rounded-2xl 
                     text-[#ec7c6a] group-hover:text-white transition-colors'>
